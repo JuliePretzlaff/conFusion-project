@@ -57,7 +57,7 @@ body{
 
 //nested:
 .carousel {
-    background: white;
+    background: $background-dark;
 
     .carousel-item {
         height: $carousel-item-height;

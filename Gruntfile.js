@@ -117,7 +117,10 @@ module.exports = function (grunt) {
         // Uglify
         uglify: {
             // dist configuration is provided by useminPrepare
-            dist: {}
+            dist: {},
+            // compress: {
+            //     collapse_vars: false
+            // }
         },
 
         cssmin: {
@@ -175,5 +178,12 @@ module.exports = function (grunt) {
         'clean',
         'copy',
         'imagemin',
+        'useminPrepare',
+        'concat',
+        'cssmin',
+        'uglify',
+        'filerev',
+        'usemin',
+        'htmlmin'
     ]);
 };
