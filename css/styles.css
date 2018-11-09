@@ -38,7 +38,7 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: #512DA8; }
+  background: white; }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
@@ -51,8 +51,3 @@ body {
   right: 0px;
   position: absolute;
   bottom: 0px; }
-
-
-  .radio-label {
-    margin-right: 25px;
-  }
