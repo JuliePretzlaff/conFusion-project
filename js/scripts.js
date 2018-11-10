@@ -12,7 +12,21 @@ $("#carousel-button").click(function () {
 });
 
 $("#loginModalLink").click(function () {
-    $("#loginModal").modal({
-        show: 'true'
-    });
+    $("#loginModal").modal();
 })
+
+$("#dismissLoginModal").click(function () {
+    $("#loginModal").modal('hide');
+})
+
+
+$("#resoModalLink").click(function () {
+    $("#resoModal").modal();
+})
+
+$("#dismissResoModal").click(function () {
+    $("#resoModal").modal('hide');
+})
+// $("#loginModalLink").on("click", function () {
+//     $('#loginModal').modal('show');
+// });

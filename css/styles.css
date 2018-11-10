@@ -28,7 +28,7 @@ body {
   padding: 50px 0px 0px 0px;
   z-index: 0; }
 
-.navbar-inverse {
+.navbar-dark {
   background-color: #512DA8; }
 
 .tab-content {
@@ -52,6 +52,19 @@ body {
   position: absolute;
   bottom: 0px; }
 
-  .radio-label {
-    margin-right: 25px;
-}
+.radio-label {
+  margin-right: 25px; }
+
+.modal-header {
+  background-color: #512DA8; }
+  .modal-header button {
+    color: floralwhite; }
+
+.modal-body {
+  background-color: #D1C4E9; }
+
+.modal-title {
+  color: floralwhite; }
+
+.modal-footer {
+  background-color: #D1C4E9; }

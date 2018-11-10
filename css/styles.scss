@@ -45,8 +45,8 @@ body{
     z-index:0;
 }
 
-.navbar-inverse {
-     background-color: $background-dark;
+.navbar-dark {
+    background-color: #512DA8;
 }
 .tab-content {
     border-left: 1px solid $lt-gray;
@@ -77,3 +77,18 @@ body{
 .radio-label {
     margin-right: 25px;
 }
+.modal-header{
+    background-color: $background-dark;
+    button {
+       color: floralwhite;
+    }
+}
+.modal-body{
+    background-color: $background-pale;
+}
+.modal-title{
+    color: floralwhite;
+  }
+  .modal-footer{
+    background-color: $background-pale;
+  }
