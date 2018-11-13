@@ -27,6 +27,3 @@ $("#resoModalLink").click(function () {
 $("#dismissResoModal").click(function () {
     $("#resoModal").modal('hide');
 })
-// $("#loginModalLink").on("click", function () {
-//     $('#loginModal').modal('show');
-// });
